@@ -27,3 +27,23 @@ return `${username} just logged in`
  }
  //console.log(loginUserMessage("Soham"))
 console.log(loginUserMessage("soham"))
+
+function calculateCartPrice(...num1){
+ return num1
+}
+//console.log(calculateCartPrice(200, 400, 500))
+ const user = {
+    username: "Soham",
+    age:18
+ }
+ function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and age is ${anyobject.age}`);
+
+
+ }
+ //handleObject(user)
+ const newArr = [200, 400, 600, 800] 
+ function returnSecondValue(getarray){
+    return getarray[1]
+ } 
+  console.log(returnSecondValue(newArr))
